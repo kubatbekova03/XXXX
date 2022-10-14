@@ -1,0 +1,658 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background: black;
+    /*width: 90%;*/
+}
+
+#header {
+    background: black;
+
+}
+
+#uiUx {
+    background: black;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border: solid 2px red;
+    padding: 5px;
+    position: fixed;
+    z-index: 99;
+    width: 90%;
+    top: 50px;
+}
+
+.menu a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.tel a {
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.uxDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.uiUx {
+    display: flex;
+    justify-content: center;
+    padding: 200px 0 0 0;
+    background: url("../img/fox.svg");
+
+
+}
+
+.img1 {
+    top: 200px;
+    position: absolute;
+    left: 4px;
+}
+
+.img2 {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.UxTitle {
+    font-weight: 700;
+    font-size: 144px;
+    color: #FFFFFF;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.Uxline {
+    height: 1px;
+    width: 400px;
+    background: #FF0000;
+}
+
+.UiTitle {
+    font-weight: 700;
+    font-size: 33px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.UxBtn {
+    background: #FFFFFF;
+    border-radius: 27px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+
+#pristine {
+    background: black;
+}
+
+.UxDescription {
+    margin: 20px 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 50%;
+}
+
+#about {
+    background: black;
+}
+
+.Shan {
+    width: 73px;
+    height: 73px;
+    left: 146px;
+    top: 821px;
+}
+
+
+.generale h1 {
+    font-family: 'Fira Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #FFFFFF;
+    margin: 70px;
+}
+
+.legendprof {
+    top: 926px;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 90px;
+}
+
+.consider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book {
+    margin: 100px;
+}
+
+.book h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+
+    border-bottom: 2px solid crimson;
+}
+
+.wall h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.wall p {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.painting h2 {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.painting p {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.desk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-hr {
+    width: 232px;
+    height: 2px;
+    background: #FF0000;
+    margin-left: 140px;
+    margin-bottom: 50px;
+}
+
+.tomorrow-gen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tomorrow {
+    width: 166px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    margin: 80px;
+}
+
+.tel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -300px;
+
+}
+
+.program {
+    overflow: hidden;
+    height: 700px;
+}
+
+#bri {
+    background: black;
+}
+
+
+.go {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+}
+
+.go hr {
+    border-top: 2px solid red;
+    width: 300px;
+    height: 4px;
+}
+
+.box1 {
+    width: 377px;
+    height: 477px;
+    top: 2072px;
+    background: #D81010;
+    filter: blur(150px);
+}
+
+.lover {
+    position: relative;
+    bottom: 360px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nature {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.twelve {
+    display: flex;
+    margin-left: 650px;
+    margin-top: -550px;
+
+}
+
+.eleven {
+    width: 166px;
+    height: 44px;
+    background: #FF0000;
+    border-radius: 27px;
+    margin: 80px;
+    color: #FFFFFF;
+}
+
+.fox1 {
+    width: 320px;
+    height: 477px;
+    top: 2072px;
+    background: #D81010;
+    filter: blur(150px);
+    margin-left: 600px;
+    margin-top: 90px;
+}
+
+.thirteen {
+    position: absolute;
+    margin-top: -400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourteen {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 60PX;
+}
+
+.thirteen img {
+    margin-left: 89px;
+}
+
+.sixteen {
+    margin-top: -240px;
+}
+
+.fifteen {
+    width: 166px;
+    height: 44px;
+    background: #FF0000;
+    border-radius: 27px;
+    color: #FFFFFF;
+    margin-left: 135px;
+}
+
+
+.lorre1 {
+    width: 377px;
+    height: 677px;
+    top: 2072px;
+    background: #D81010;
+    filter: blur(150px);
+}
+
+.clause {
+    position: relative;
+    bottom: 360px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.brings {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.leads {
+    display: flex;
+    margin-left: 650px;
+    margin-top: -550px;
+
+}
+
+.spine {
+    width: 320px;
+    height: 477px;
+    top: 2072px;
+    background: #D81010;
+    filter: blur(150px);
+    margin-left: 600px;
+    margin-top: 90px;
+}
+
+.tea {
+    position: absolute;
+    margin-top: -400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bell {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 60PX;
+}
+
+.bell img {
+    margin-left: 89px;
+}
+
+.spite {
+    margin-top: -240px;
+}
+
+.range {
+    width: 166px;
+    height: 44px;
+    background: #FF0000;
+    border-radius: 27px;
+    color: #FFFFFF;
+    margin-left: 135px;
+}
+
+
+.emperor {
+    display: flex;
+    margin-left: 450px;
+}
+
+.emperor1 {
+    border-radius: 34px;
+    width: 176px;
+    height: 44px;
+    margin-top: 290px;
+}
+
+.admire {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -200px;
+
+}
+
+.admire3 {
+    overflow: hidden;
+    height: 700px;
+}
+
+.rag hr {
+    border-top: 2px solid red;
+    width: 300px;
+    height: 4px;
+}
+
+#swiper1 {
+    background: black;
+    padding-top: 100px;
+}
+
+.rag {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+}
+
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 90%;
+    height: 90%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /*background: #fff;*/
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 90%;
+    height: 100%;
+    margin-top: -350px;
+    object-fit: cover;
+    z-index: 1;
+    margin-bottom: 200px;
+}
+
+.keep {
+    background: url("../img/fox1.png") no-repeat center/cover;
+    margin-top: 88px;
+}
+
+.App {
+    margin: -39px 0 0 450px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    width: 176px;
+    height: 44px;
+}
+
+#google {
+    background: black;
+  height: 1000px;
+    padding-bottom: 150px;
+
+}
+
+.google1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google1 hr {
+    border-top: 2px solid red;
+    width: 500px;
+    height: 4px;
+    margin-top: 90px;
+}
+.block {
+    height: 190px;
+    font-weight: 100;
+    font-size: 28px;
+}
+.blockInp{
+ margin: 50px;
+    padding:  10px 90px 20px;
+}
+.blackInp1{
+    margin: 60px;
+    padding: 10px 90px 20px ;
+}
+.bailing   {
+    width: 30px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 50px 60px -80px;
+}
+.bailing1{
+   margin: 50px -190px -50px 80px;
+}
+.telegram{
+    width: 390px;
+    height: 90px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: -50px;
+}
+.colors{
+    width: 812px;
+    height: 133px;
+    left: 313px;
+    top: 5455px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+}
+.colorsT{
+    width: 290px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin: -20px  290px 0;
+}
+.link{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px 0 15px;
+}
+.icon{
+    position: absolute;
+    margin-left: 4px;
+}
+.link2{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 0 0 5px;
+}
+
+.footerBtn {
+    width: 188px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+}
+
+.send{
+    display: flex;
+    flex-direction: column;
+    margin:  10px 90px;
+}
+
+
+
+
